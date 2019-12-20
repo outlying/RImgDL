@@ -51,6 +51,6 @@ while True:
 			urllib.request.urlretrieve(url, timestamp + "_" + id + ".jpg")
 
 	if loopMode:
-		time.sleep(60 * 60 * 6) # Every 6 hours
+		time.sleep(60 * 30) # Every 30 minutes
 	else:
 		break
